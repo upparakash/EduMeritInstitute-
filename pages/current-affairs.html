@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Affairs - EduMerit Institute</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <a href="../index.html" class="logo">
+                <img src="../Logo/1.jpg" alt="EduMerit">
+                <span>EduMerit Institute</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="bank-exams.html">Bank Exams</a></li>
+                <li><a href="ssc-exams.html">SSC Exams</a></li>
+                <li><a href="academic.html">Academic</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="../admin/login.html" class="btn-admin"><i class="fas fa-lock"></i> Login</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="page-hero-inner">
+            <div class="page-hero-breadcrumb">
+                <a href="../index.html"><i class="fas fa-home"></i> Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>Current Affairs</span>
+            </div>
+            <div class="page-hero-body">
+                <div class="page-hero-icon">
+                    <i class="fas fa-newspaper"></i>
+                </div>
+                <div>
+                    <h1>Current Affairs</h1>
+                    <p>Stay updated with daily, weekly &amp; monthly current affairs for all competitive exams</p>
+                </div>
+            </div>
+            <div class="page-hero-stats">
+                <span class="hero-stat-pill"><i class="fas fa-calendar-day"></i> Daily Updates</span>
+                <span class="hero-stat-pill"><i class="fas fa-calendar-week"></i> Weekly Digest</span>
+                <span class="hero-stat-pill"><i class="fas fa-calendar-alt"></i> Monthly Compilation</span>
+                <span class="hero-stat-pill"><i class="fas fa-download"></i> Free PDF Downloads</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="affairs-page-section">
+        <div class="container">
+            <div class="affairs-categories">
+                <button class="affairs-category-btn active" data-type="daily">Daily Current Affairs</button>
+                <button class="affairs-category-btn" data-type="weekly">Weekly Current Affairs</button>
+                <button class="affairs-category-btn" data-type="monthly">Monthly Current Affairs</button>
+            </div>
+
+            <div class="affairs-content" id="dailyAffairs">
+                <h2><i class="fas fa-calendar-day"></i> Daily Current Affairs</h2>
+                <div class="affairs-grid" id="dailyGrid">
+                    <div class="affair-card">
+                        <div class="affair-date">March 15, 2026</div>
+                        <h4>Important National & International Events</h4>
+                        <p>Key highlights from today's current affairs including political, economic, sports and other important news.</p>
+                        <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
+                    </div>
+                    <div class="affair-card">
+                        <div class="affair-date">March 14, 2026</div>
+                        <h4>Banking & Financial Updates</h4>
+                        <p>Latest updates from banking sector, RBI policies, and financial market movements.</p>
+                        <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
+                    </div>
+                    <div class="affair-card">
+                        <div class="affair-date">March 13, 2026</div>
+                        <h4>Science & Technology News</h4>
+                        <p>Recent developments in science, technology, space research and innovations.</p>
+                        <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="affairs-content" id="weeklyAffairs" style="display: none;">
+                <h2><i class="fas fa-calendar-week"></i> Weekly Current Affairs</h2>
+                <div class="affairs-grid" id="weeklyGrid">
+                    <div class="affair-card">
+                        <div class="affair-date">Week: March 10-16, 2026</div>
+                        <h4>Weekly Compilation - National Affairs</h4>
+                        <p>Complete coverage of national events, government schemes, and policy updates from this week.</p>
+                        <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
+                    </div>
+                    <div class="affair-card">
+                        <div class="affair-date">Week: March 3-9, 2026</div>
+                        <h4>Weekly Compilation - International Affairs</h4>
+                        <p>Global events, international relations, and important world news from the past week.</p>
+                        <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
+                    </div>
+                    <div class="affair-card">
+                        <div class="affair-date">Week: Feb 24 - Mar 2, 2026</div>
+                        <h4>Weekly Compilation - Economy & Banking</h4>
+                        <p>Economic indicators, banking updates, and financial sector news compilation.</p>
+                        <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="affairs-content" id="monthlyAffairs" style="display: none;">
+                <h2><i class="fas fa-calendar-alt"></i> Monthly Current Affairs</h2>
+                <div class="affairs-grid" id="monthlyGrid">
+                    <div class="affair-card">
+                        <div class="affair-date">February 2026</div>
+                        <h4>Monthly Digest - Complete Coverage</h4>
+                        <p>Comprehensive monthly compilation covering all important events, appointments, awards, and news.</p>
+                        <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
+                    </div>
+                    <div class="affair-card">
+                        <div class="affair-date">January 2026</div>
+                        <h4>Monthly Digest - Complete Coverage</h4>
+                        <p>All important current affairs from January including national, international, sports, and awards.</p>
+                        <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
+                    </div>
+                    <div class="affair-card">
+                        <div class="affair-date">December 2025</div>
+                        <h4>Monthly Digest - Complete Coverage</h4>
+                        <p>Year-end special compilation with all major events and developments from December.</p>
+                        <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="../Logo/1.jpg" alt="EduMerit">
+                    <span>EduMerit Institute</span>
+                </div>
+                <p>Empowering minds and shaping futures through quality education.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="bank-exams.html"><i class="fas fa-chevron-right"></i> Bank Exams</a></li>
+                    <li><a href="ssc-exams.html"><i class="fas fa-chevron-right"></i> SSC Exams</a></li>
+                    <li><a href="academic.html"><i class="fas fa-chevron-right"></i> Academic</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-phone"></i> +91 9211278818</li>
+                    <li><i class="fas fa-envelope"></i> info@edumerits.co.in</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 2nd Floor, ICON Nurturing Innocence, opposite to Bank of Maharashtra (Panchsheel Green), Greater Noida, UP.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 EduMerit Institute. All rights reserved.</p>
+                <p>Developed by <a href="https://fedigmaforge.com/" target="_blank" style="color:rgba(255,255,255,0.8);text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">Fedigma Forge</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../public/js/main.js"></script>
+    <script>
+        const affairsCategoryBtns = document.querySelectorAll('.affairs-category-btn');
+        const affairsContents = document.querySelectorAll('.affairs-content');
+
+        affairsCategoryBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const type = btn.dataset.type;
+                
+                affairsCategoryBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                affairsContents.forEach(content => {
+                    content.style.display = 'none';
+                });
+                
+                document.getElementById(`${type}Affairs`).style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>

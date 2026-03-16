@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Programs - EduMerit Institute</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <a href="../index.html" class="logo">
+                <img src="../Logo/1.jpg" alt="EduMerit">
+                <span>EduMerit Institute</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="bank-exams.html">Bank Exams</a></li>
+                <li><a href="ssc-exams.html">SSC Exams</a></li>
+                <li><a href="academic.html" class="active">Academic</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="current-affairs.html">Current Affairs</a></li>
+                <li><a href="../admin/login.html" class="btn-admin"><i class="fas fa-lock"></i> Login</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="page-hero-inner">
+            <div class="page-hero-breadcrumb">
+                <a href="../index.html"><i class="fas fa-home"></i> Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>Academic</span>
+            </div>
+            <div class="page-hero-body">
+                <div class="page-hero-icon">
+                    <i class="fas fa-book-reader"></i>
+                </div>
+                <div>
+                    <h1>Academic Programs</h1>
+                    <p>Quality education for Classes 1–12 with personalized attention &amp; concept-based learning</p>
+                </div>
+            </div>
+            <div class="page-hero-stats">
+                <span class="hero-stat-pill"><i class="fas fa-users"></i> 1500+ Students</span>
+                <span class="hero-stat-pill"><i class="fas fa-graduation-cap"></i> Classes 1–12</span>
+                <span class="hero-stat-pill"><i class="fas fa-chalkboard-teacher"></i> Expert Teachers</span>
+                <span class="hero-stat-pill"><i class="fas fa-star"></i> CBSE / ICSE / State Boards</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="course-detail-section">
+        <div class="container course-detail-grid">
+            <div class="course-main">
+                <div class="course-intro">
+                    <h2>Academic Programs (Classes 1-12)</h2>
+                    <p>Our school tuition program provides comprehensive education for students from Class 1 to 12, covering all subjects with concept-based learning and regular assessments.</p>
+                </div>
+
+                <div class="course-block">
+                    <h3><i class="fas fa-graduation-cap"></i> Classes Offered</h3>
+                    <div class="exams-grid">
+                        <div class="exam-item"><i class="fas fa-check-circle"></i> Primary Classes (1-5)</div>
+                        <div class="exam-item"><i class="fas fa-check-circle"></i> Middle School (6-8)</div>
+                        <div class="exam-item"><i class="fas fa-check-circle"></i> Secondary (9-10)</div>
+                        <div class="exam-item"><i class="fas fa-check-circle"></i> Senior Secondary (11-12)</div>
+                        <div class="exam-item"><i class="fas fa-check-circle"></i> CBSE Board</div>
+                        <div class="exam-item"><i class="fas fa-check-circle"></i> ICSE Board</div>
+                        <div class="exam-item"><i class="fas fa-check-circle"></i> State Boards</div>
+                    </div>
+                </div>
+
+                <div class="course-block">
+                    <h3><i class="fas fa-star"></i> Program Features</h3>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> All subjects covered (Math, Science, English, Social Studies)</li>
+                        <li><i class="fas fa-check"></i> Small batch sizes for personalized attention</li>
+                        <li><i class="fas fa-check"></i> Experienced and qualified teachers</li>
+                        <li><i class="fas fa-check"></i> Concept-based learning approach</li>
+                        <li><i class="fas fa-check"></i> Regular tests and assessments</li>
+                        <li><i class="fas fa-check"></i> Doubt clearing sessions</li>
+                        <li><i class="fas fa-check"></i> Parent-teacher meetings</li>
+                        <li><i class="fas fa-check"></i> Study materials and worksheets</li>
+                        <li><i class="fas fa-check"></i> Board exam preparation</li>
+                    </ul>
+                </div>
+
+                <div class="course-block">
+                    <h3><i class="fas fa-book-open"></i> Subjects Covered</h3>
+                    <div class="syllabus-tabs">
+                        <button class="tab-btn active" data-tab="primary">Primary (1-5)</button>
+                        <button class="tab-btn" data-tab="middle">Middle (6-8)</button>
+                        <button class="tab-btn" data-tab="secondary">Secondary (9-10)</button>
+                        <button class="tab-btn" data-tab="senior">Senior (11-12)</button>
+                    </div>
+                    <div class="tab-content active" id="primary">
+                        <ul class="syllabus-list">
+                            <li>English (Reading, Writing, Grammar)</li>
+                            <li>Mathematics (Basic Arithmetic, Geometry)</li>
+                            <li>Environmental Studies</li>
+                            <li>Hindi/Regional Language</li>
+                            <li>General Knowledge</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="middle">
+                        <ul class="syllabus-list">
+                            <li>English (Literature, Grammar, Composition)</li>
+                            <li>Mathematics (Algebra, Geometry, Mensuration)</li>
+                            <li>Science (Physics, Chemistry, Biology)</li>
+                            <li>Social Studies (History, Geography, Civics)</li>
+                            <li>Hindi/Regional Language</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="secondary">
+                        <ul class="syllabus-list">
+                            <li>English (Literature, Grammar, Writing Skills)</li>
+                            <li>Mathematics (Advanced Algebra, Trigonometry, Statistics)</li>
+                            <li>Science (Physics, Chemistry, Biology)</li>
+                            <li>Social Science (History, Geography, Economics, Political Science)</li>
+                            <li>Hindi/Regional Language</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="senior">
+                        <ul class="syllabus-list">
+                            <li>Science Stream: Physics, Chemistry, Mathematics, Biology</li>
+                            <li>Commerce Stream: Accountancy, Business Studies, Economics</li>
+                            <li>Arts Stream: History, Political Science, Geography, Psychology</li>
+                            <li>English Core/Elective</li>
+                            <li>Computer Science/Informatics Practices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-sidebar">
+                <div class="sidebar-card">
+                    <h3>Program Information</h3>
+                    <ul class="info-list">
+                        <li><i class="fas fa-clock"></i> <strong>Duration:</strong> Full Academic Year</li>
+                        <li><i class="fas fa-video"></i> <strong>Mode:</strong> Online/Offline</li>
+                        <li><i class="fas fa-users"></i> <strong>Batch Size:</strong> 15-20 Students</li>
+                        <li><i class="fas fa-language"></i> <strong>Language:</strong> Hindi/English</li>
+                        <li><i class="fas fa-calendar"></i> <strong>Schedule:</strong> Flexible Timings</li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-card cta-card">
+                    <h3>Enroll Your Child</h3>
+                    <p>Give your child the best education!</p>
+                    <a href="contact.html" class="btn-primary btn-block"><i class="fas fa-user-plus"></i> Register Now</a>
+                    <a href="contact.html" class="btn-outline btn-block"><i class="fas fa-calendar"></i> Book Free Demo</a>
+                </div>
+
+                <div class="sidebar-card">
+                    <h3>Need Help?</h3>
+                    <p>Contact our admission team</p>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone"></i> +91 9211278818</li>
+                        <li><i class="fas fa-envelope"></i> info@edumerits.co.in</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-resources-section">
+        <div class="container">
+            <h2><i class="fas fa-download"></i> Free Resources for Academic Students</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon pdf"><i class="fas fa-file-pdf"></i></div>
+                    <div class="resource-info">
+                        <h4>Class 10 Sample Papers</h4>
+                        <p>All subjects sample papers with marking scheme</p>
+                        <span class="resource-meta"><i class="fas fa-file"></i> PDF &nbsp;|&nbsp; <i class="fas fa-download"></i> Free</span>
+                    </div>
+                    <a href="#" class="btn-download"><i class="fas fa-download"></i> Download</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon pdf"><i class="fas fa-file-pdf"></i></div>
+                    <div class="resource-info">
+                        <h4>Class 12 Revision Notes</h4>
+                        <p>Subject-wise revision notes for board exam preparation</p>
+                        <span class="resource-meta"><i class="fas fa-file"></i> PDF &nbsp;|&nbsp; <i class="fas fa-download"></i> Free</span>
+                    </div>
+                    <a href="#" class="btn-download"><i class="fas fa-download"></i> Download</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon pdf"><i class="fas fa-file-pdf"></i></div>
+                    <div class="resource-info">
+                        <h4>Practice Worksheets</h4>
+                        <p>Topic-wise practice worksheets for all classes</p>
+                        <span class="resource-meta"><i class="fas fa-file"></i> PDF &nbsp;|&nbsp; <i class="fas fa-download"></i> Free</span>
+                    </div>
+                    <a href="#" class="btn-download"><i class="fas fa-download"></i> Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="../Logo/1.jpg" alt="EduMerit">
+                    <span>EduMerit Institute</span>
+                </div>
+                <p>Empowering minds and shaping futures through quality education.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="bank-exams.html"><i class="fas fa-chevron-right"></i> Bank Exams</a></li>
+                    <li><a href="ssc-exams.html"><i class="fas fa-chevron-right"></i> SSC Exams</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-phone"></i> +91 9211278818</li>
+                    <li><i class="fas fa-envelope"></i> info@edumerits.co.in</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 2nd Floor, ICON Nurturing Innocence, opposite to Bank of Maharashtra (Panchsheel Green), Greater Noida, UP.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 EduMerit Institute. All rights reserved.</p>
+                <p>Developed by <a href="https://fedigmaforge.com/" target="_blank" style="color:rgba(255,255,255,0.8);text-decoration:none;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">Fedigma Forge</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../public/js/main.js"></script>
+</body>
+</html>

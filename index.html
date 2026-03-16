@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduMerit Institute - Excellence in Education</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="index.html" class="logo">
+                <img src="Logo/1.jpg" alt="EduMerit">
+                <span>EduMerit Institute</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/bank-exams.html">Bank Exams</a></li>
+                <li><a href="pages/ssc-exams.html">SSC Exams</a></li>
+                <li><a href="pages/academic.html">Academic</a></li>
+                <li><a href="pages/current-affairs.html">Current Affairs</a></li>
+                <li><a href="pages/resources.html">Resources</a></li>
+                <li><a href="admin/login.html" class="btn-admin"><i class="fas fa-lock"></i> Login</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- HERO BANNER SLIDER -->
+    <section class="hero" id="heroBanner">
+        <div class="slider-track" id="sliderTrack">
+            <div class="slide active" style="background: url('hero Banner section/Homepage Hero Banner- 1.png') center top/100% 100% no-repeat;">
+                <div class="slide-content">
+                    <div class="slide-btns">
+                        <a href="pages/bank-exams.html" class="btn-primary">Explore Courses</a>
+                        <a href="pages/academic.html" class="btn-outline">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background: url('hero Banner section/Homepage Hero Banner - 2.png') center top/100% 100% no-repeat;">
+                <div class="slide-content">
+                    <div class="slide-btns">
+                        <a href="pages/bank-exams.html" class="btn-primary">Bank Exams</a>
+                        <a href="pages/ssc-exams.html" class="btn-outline">SSC Exams</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background: url('hero Banner section/Homepage Hero Banner - 3.png') center top/100% 100% no-repeat;">
+                <div class="slide-content">
+                    <div class="slide-btns">
+                        <a href="pages/academic.html" class="btn-primary">View Programs</a>
+                        <a href="pages/current-affairs.html" class="btn-outline">Current Affairs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="slider-btn prev" id="sliderPrev"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn next" id="sliderNext"><i class="fas fa-chevron-right"></i></button>
+        <div class="slider-dots" id="sliderDots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+        </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <section class="stats-bar">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <i class="fas fa-user-graduate"></i>
+                <div>
+                    <h3 class="counter" data-target="500">0</h3>
+                    <p>Students Enrolled</p>
+                </div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-book-open"></i>
+                <div>
+                    <h3 class="counter" data-target="15">0</h3>
+                    <p>Courses Available</p>
+                </div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-trophy"></i>
+                <div>
+                    <h3 class="counter" data-target="98">0</h3>
+                    <p>Success Rate %</p>
+                </div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <div>
+                    <h3 class="counter" data-target="18">0</h3>
+                    <p>Expert Faculty</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section">
+        <div class="container about-grid">
+            <div class="about-img">
+                <img src="Logo/2.jpg" alt="About EduMerit">
+            </div>
+            <div class="about-text">
+                <span class="section-tag">Who We Are</span>
+                <h2>About EduMerit Institute</h2>
+                <div class="divider"></div>
+                <p id="aboutPreview">EduMerit Institute is dedicated to providing quality education and fostering excellence in learning. We believe in nurturing talent and building future leaders through innovative teaching methods and a comprehensive curriculum.</p>
+                <ul class="check-list">
+                    <li><i class="fas fa-check-circle"></i> Expert & Experienced Faculty</li>
+                    <li><i class="fas fa-check-circle"></i> Modern Learning Infrastructure</li>
+                    <li><i class="fas fa-check-circle"></i> Industry-Relevant Curriculum</li>
+                    <li><i class="fas fa-check-circle"></i> 100% Placement Support</li>
+                </ul>
+                <a href="pages/about.html" class="btn-primary">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES SECTION -->
+    <section class="courses-section" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What We Offer</span>
+                <h2>Our Course Categories</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="main-courses-grid">
+                <div class="main-course-card">
+                    <div class="main-course-icon"><i class="fas fa-university"></i></div>
+                    <h3>Bank Exams</h3>
+                    <p>Complete preparation for IBPS, SBI, RBI and all banking exams with expert guidance and study materials.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> IBPS PO/Clerk</li>
+                        <li><i class="fas fa-check"></i> SBI PO/Clerk</li>
+                        <li><i class="fas fa-check"></i> RBI Grade B</li>
+                        <li><i class="fas fa-check"></i> Mock Tests & Analysis</li>
+                    </ul>
+                    <a href="pages/bank-exams.html" class="btn-primary">Explore Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="main-course-card">
+                    <div class="main-course-icon"><i class="fas fa-file-alt"></i></div>
+                    <h3>SSC Exams</h3>
+                    <p>Comprehensive coaching for SSC CGL, CHSL, MTS and other Staff Selection Commission examinations.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> SSC CGL</li>
+                        <li><i class="fas fa-check"></i> SSC CHSL</li>
+                        <li><i class="fas fa-check"></i> SSC MTS</li>
+                        <li><i class="fas fa-check"></i> Previous Year Papers</li>
+                    </ul>
+                    <a href="pages/ssc-exams.html" class="btn-primary">Explore Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="main-course-card">
+                    <div class="main-course-icon"><i class="fas fa-book-reader"></i></div>
+                    <h3>Academics (Classes 1-12)</h3>
+                    <p>Quality education for all school students with personalized attention and concept-based learning.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> All Subjects Covered</li>
+                        <li><i class="fas fa-check"></i> CBSE/ICSE/State Boards</li>
+                        <li><i class="fas fa-check"></i> Regular Assessments</li>
+                        <li><i class="fas fa-check"></i> Doubt Clearing Sessions</li>
+                    </ul>
+                    <a href="pages/academic.html" class="btn-primary">Explore Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="why-choose-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Advantages</span>
+                <h2>Why Choose EduMerit Institute?</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-video"></i></div>
+                    <h4>Live Classes</h4>
+                    <p>Interactive live sessions with real-time doubt solving and student engagement.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-play-circle"></i></div>
+                    <h4>Recorded Lectures</h4>
+                    <p>Access recorded classes anytime, anywhere for revision and flexible learning.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <h4>Mock Tests</h4>
+                    <p>Regular mock tests with detailed analysis to track your progress effectively.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-question-circle"></i></div>
+                    <h4>Doubt Solving</h4>
+                    <p>Dedicated doubt clearing sessions to ensure complete understanding of concepts.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h4>Expert Faculty</h4>
+                    <p>Learn from experienced teachers with proven track records of success.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>Study Materials</h4>
+                    <p>Comprehensive study materials, notes and practice papers for thorough preparation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STUDENT RESULTS / TESTIMONIALS -->
+    <section class="results-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Success Stories</span>
+                <h2>Student Results & Testimonials</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="results-grid" id="testimonialsGrid">
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"EduMerit's Bank Exam coaching helped me clear SBI PO in my first attempt. The mock tests and faculty support were exceptional!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">R</div>
+                        <div>
+                            <h5>Rahul Sharma</h5>
+                            <span>SBI PO - Selected</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Thanks to EduMerit, I scored 95% in Class 12 boards. The teachers are amazing and always available for doubt clearing."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">P</div>
+                        <div>
+                            <h5>Priya Mehta</h5>
+                            <span>Class 12 - 95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"I cleared SSC CGL with great marks. The study materials and regular tests at EduMerit made all the difference!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div>
+                            <h5>Arjun Patel</h5>
+                            <span>SSC CGL - Qualified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FREE RESOURCES -->
+    <section class="resources-section" id="resources">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Free Resources</span>
+                <h2>Study Notes, Previous Year Questions & Practice Quizzes</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="resources-grid" id="resourcesGrid">
+                <div class="resource-card">
+                    <div class="resource-icon pdf"><i class="fas fa-file-pdf"></i></div>
+                    <div class="resource-info">
+                        <h4>Bank Exam Study Notes</h4>
+                        <p>Complete notes for Banking Awareness, Reasoning & Quantitative Aptitude</p>
+                        <span class="resource-meta"><i class="fas fa-file"></i> PDF &nbsp;|&nbsp; <i class="fas fa-download"></i> Free</span>
+                    </div>
+                    <a href="#" class="btn-download"><i class="fas fa-download"></i> Download</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon pdf"><i class="fas fa-file-pdf"></i></div>
+                    <div class="resource-info">
+                        <h4>SSC Previous Year Questions</h4>
+                        <p>Last 10 years solved papers with detailed explanations</p>
+                        <span class="resource-meta"><i class="fas fa-file"></i> PDF &nbsp;|&nbsp; <i class="fas fa-download"></i> Free</span>
+                    </div>
+                    <a href="#" class="btn-download"><i class="fas fa-download"></i> Download</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon pdf"><i class="fas fa-file-pdf"></i></div>
+                    <div class="resource-info">
+                        <h4>Practice Quizzes - All Subjects</h4>
+                        <p>Topic-wise practice questions for academic students (Classes 1-12)</p>
+                        <span class="resource-meta"><i class="fas fa-file"></i> PDF &nbsp;|&nbsp; <i class="fas fa-download"></i> Free</span>
+                    </div>
+                    <a href="#" class="btn-download"><i class="fas fa-download"></i> Download</a>
+                </div>
+                <div class="resource-card">
+                    <div class="resource-icon pdf"><i class="fas fa-file-pdf"></i></div>
+                    <div class="resource-info">
+                        <h4>Current Affairs Monthly Digest</h4>
+                        <p>Monthly compilation of important national & international events</p>
+                        <span class="resource-meta"><i class="fas fa-file"></i> PDF &nbsp;|&nbsp; <i class="fas fa-download"></i> Free</span>
+                    </div>
+                    <a href="#" class="btn-download"><i class="fas fa-download"></i> Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- YOUTUBE / VIDEO SECTION -->
+    <section class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Watch & Learn</span>
+                <h2>Free Video Lectures on YouTube</h2>
+                <div class="divider"></div>
+                <p style="color:var(--text-gray);margin-top:1rem;">Subscribe to our YouTube channel for free lectures, tips and exam strategies</p>
+            </div>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-thumb">
+                        <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=UCu2cD8WHMywQ0KlH54UnqwQ" allowfullscreen title="EduMerit Bank Exam Lecture"></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h4>Bank Exam Preparation</h4>
+                        <p>Expert tips and strategies for cracking IBPS, SBI banking exams</p>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumb">
+                        <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=UCu2cD8WHMywQ0KlH54UnqwQ" allowfullscreen title="EduMerit SSC Exam Lecture"></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h4>SSC Exam Coaching</h4>
+                        <p>Complete SSC CGL, CHSL preparation with practice questions</p>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumb">
+                        <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=UCu2cD8WHMywQ0KlH54UnqwQ" allowfullscreen title="EduMerit Academic Lecture"></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h4>Academic Classes</h4>
+                        <p>Concept-based learning for Classes 1-12 all subjects</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-2">
+                <a href="https://www.youtube.com/channel/UCu2cD8WHMywQ0KlH54UnqwQ" target="_blank" class="btn-youtube">
+                    <i class="fab fa-youtube"></i> Subscribe to Our YouTube Channel
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-section">
+        <div class="container cta-inner">
+            <div class="cta-text">
+                <h2>Ready to Start Your Learning Journey?</h2>
+                <p>Join 5,000+ students who have transformed their careers with EduMerit Institute.</p>
+            </div>
+            <div class="cta-actions">
+                <a href="pages/contact.html" class="btn-white"><i class="fas fa-calendar-check"></i> Book Free Demo</a>
+                <a href="pages/contact.html" class="btn-outline-white"><i class="fas fa-user-plus"></i> Enroll Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="Logo/1.jpg" alt="EduMerit">
+                    <span>EduMerit Institute</span>
+                </div>
+                <p>Empowering minds and shaping futures through quality education. Join thousands of successful students who achieved their dreams with EduMerit.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61588608520301" target="_blank" class="fb" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/edumeritinstitute/" target="_blank" class="ig" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCu2cD8WHMywQ0KlH54UnqwQ" target="_blank" class="yt" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/in/edumerit-institute/" target="_blank" class="li" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="pages/bank-exams.html"><i class="fas fa-chevron-right"></i> Bank Exams</a></li>
+                    <li><a href="pages/ssc-exams.html"><i class="fas fa-chevron-right"></i> SSC Exams</a></li>
+                    <li><a href="pages/academic.html"><i class="fas fa-chevron-right"></i> Academic</a></li>
+                    <li><a href="pages/current-affairs.html"><i class="fas fa-chevron-right"></i> Current Affairs</a></li>
+                    <li><a href="pages/resources.html"><i class="fas fa-chevron-right"></i> Resources</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Our Courses</h4>
+                <ul>
+                    <li><a href="pages/bank-exams.html"><i class="fas fa-university"></i> Bank Exams</a></li>
+                    <li><a href="pages/ssc-exams.html"><i class="fas fa-file-alt"></i> SSC Exams</a></li>
+                    <li><a href="pages/academic.html"><i class="fas fa-book-reader"></i> Academics (1-12)</a></li>
+                    <li><a href="pages/current-affairs.html"><i class="fas fa-newspaper"></i> Current Affairs</a></li>
+                    <li><a href="pages/resources.html"><i class="fas fa-download"></i> Free Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-phone"></i> <span id="footerPhone">+91 9211278818</span></li>
+                    <li><i class="fas fa-envelope"></i> <span id="footerEmail">info@edumerits.co.in</span></li>
+                    <li><i class="fas fa-map-marker-alt"></i> <span id="footerAddress">2nd Floor, ICON Nurturing Innocence, opposite to Bank of Maharashtra (Panchsheel Green), Greater Noida, UP.</span></li>
+                    <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com/channel/UCu2cD8WHMywQ0KlH54UnqwQ" target="_blank" style="color:rgba(255,255,255,0.8);text-decoration:none;">YouTube Channel</a></li>
+                </ul>
+                <h4 style="margin-top:1.5rem;">Newsletter</h4>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 EduMerit Institute. All rights reserved.</p>
+            <p>Developed by <a href="https://fedigmaforge.com/" target="_blank" style="color:rgba(255,255,255,0.8);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">Fedigma Forge</a></p>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="public/js/main.js"></script>
+</body>
+</html>
